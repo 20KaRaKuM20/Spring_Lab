@@ -1,0 +1,35 @@
+Package: sfml
+Version: 3.0.2
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 7c8594c1c6a0f15028bc3d5eb6b21b17edd0ce957c8e8843ca9f5d07439843dc
+Description: Simple and fast multimedia library
+Default-Features: audio, graphics, network, window
+
+Package: sfml
+Feature: audio
+Depends: libflac, libogg, libvorbis, miniaudio
+Architecture: x64-windows
+Multi-Arch: same
+Description: Use sfml-audio library
+
+Package: sfml
+Feature: graphics
+Depends: freetype, stb
+Architecture: x64-windows
+Multi-Arch: same
+Description: Use sfml-graphics library
+
+Package: sfml
+Feature: network
+Architecture: x64-windows
+Multi-Arch: same
+Description: Use sfml-network library
+
+Package: sfml
+Feature: window
+Depends: opengl
+Architecture: x64-windows
+Multi-Arch: same
+Description: Use sfml-window library

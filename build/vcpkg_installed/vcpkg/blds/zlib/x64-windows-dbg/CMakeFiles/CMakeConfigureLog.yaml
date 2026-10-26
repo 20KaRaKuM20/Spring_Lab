@@ -1,0 +1,500 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/visual studio/1/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26300 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/visual studio/1/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/visual studio/1/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/visual studio/1/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: E:/visual studio/1/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe 
+      Build flags: /nologo;/DWIN32;/D_WINDOWS;/utf-8;/MP
+      Id flags:  
+      
+      The output was:
+      0
+      CMakeCCompilerId.c
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        F:/Університет ФІТ 2-17/Семестер 5/ТПП/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/3.31.6-msvc6/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/visual studio/1/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1288 (message)"
+      - "E:/visual studio/1/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "E:/visual studio/1/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Примечание: включение файла:  F:\\Університет ФІТ 2-17\\Семестер 5\\ТПП\\Spring_Lab\\build\\vcpkg_installed\\vcpkg\\blds\\zlib\\x64-windows-dbg\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Примечание: включение файла:  "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/visual studio/1/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "E:/visual studio/1/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-vhlq8j"
+      binary: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-vhlq8j"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/visual studio/1/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "E:/visual studio/1/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/Університет ФІТ 2-17/Семестер 5/ТПП/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-vhlq8j'
+        
+        Run Build Command(s): C:/Users/vovav/AppData/Local/vcpkg/downloads/tools/ninja/1.13.1-windows/ninja.exe -v cmTC_c4337
+        [1/2] "E:\\visual studio\\1\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /MDd /Z7 /Ob0 /Od /RTC1  -MDd /showIncludes /FoCMakeFiles\\cmTC_c4337.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_c4337.dir\\ /FS -c "E:\\visual studio\\1\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\visual studio\\1\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_c4337.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "E:\\visual studio\\1\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_c4337.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_c4337.exe /implib:cmTC_c4337.lib /pdb:cmTC_c4337.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/visual studio/1/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "E:/visual studio/1/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/visual studio/1/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "E:/visual studio/1/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:262 (check_include_file)"
+      - "CMakeLists.txt:78 (check_type_size)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ezya1i"
+      binary: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ezya1i"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/visual studio/1/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "E:/visual studio/1/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/Університет ФІТ 2-17/Семестер 5/ТПП/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ezya1i'
+        
+        Run Build Command(s): C:/Users/vovav/AppData/Local/vcpkg/downloads/tools/ninja/1.13.1-windows/ninja.exe -v cmTC_fd81b
+        [1/2] "E:\\visual studio\\1\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo -D_LARGEFILE64_SOURCE=1  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /MDd /Z7 /Ob0 /Od /RTC1  -MDd /showIncludes /FoCMakeFiles\\cmTC_fd81b.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_fd81b.dir\\ /FS -c "F:\\Університет ФІТ 2-17\\Семестер 5\\ТПП\\Spring_Lab\\build\\vcpkg_installed\\vcpkg\\blds\\zlib\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-ezya1i\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\visual studio\\1\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_fd81b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "E:\\visual studio\\1\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_fd81b.dir\\CheckIncludeFile.c.obj  /out:cmTC_fd81b.exe /implib:cmTC_fd81b.lib /pdb:cmTC_fd81b.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/visual studio/1/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "E:/visual studio/1/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:263 (check_include_file)"
+      - "CMakeLists.txt:78 (check_type_size)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-1fm654"
+      binary: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-1fm654"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/visual studio/1/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "E:/visual studio/1/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/Університет ФІТ 2-17/Семестер 5/ТПП/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-1fm654'
+        
+        Run Build Command(s): C:/Users/vovav/AppData/Local/vcpkg/downloads/tools/ninja/1.13.1-windows/ninja.exe -v cmTC_bb1aa
+        [1/2] "E:\\visual studio\\1\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo -D_LARGEFILE64_SOURCE=1  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /MDd /Z7 /Ob0 /Od /RTC1  -MDd /showIncludes /FoCMakeFiles\\cmTC_bb1aa.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_bb1aa.dir\\ /FS -c "F:\\Університет ФІТ 2-17\\Семестер 5\\ТПП\\Spring_Lab\\build\\vcpkg_installed\\vcpkg\\blds\\zlib\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-1fm654\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\visual studio\\1\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_bb1aa.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "E:\\visual studio\\1\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_bb1aa.dir\\CheckIncludeFile.c.obj  /out:cmTC_bb1aa.exe /implib:cmTC_bb1aa.lib /pdb:cmTC_bb1aa.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/visual studio/1/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "E:/visual studio/1/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:264 (check_include_file)"
+      - "CMakeLists.txt:78 (check_type_size)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-k6nwwh"
+      binary: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-k6nwwh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/visual studio/1/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "E:/visual studio/1/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/Університет ФІТ 2-17/Семестер 5/ТПП/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-k6nwwh'
+        
+        Run Build Command(s): C:/Users/vovav/AppData/Local/vcpkg/downloads/tools/ninja/1.13.1-windows/ninja.exe -v cmTC_f7fdc
+        [1/2] "E:\\visual studio\\1\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo -D_LARGEFILE64_SOURCE=1  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /MDd /Z7 /Ob0 /Od /RTC1  -MDd /showIncludes /FoCMakeFiles\\cmTC_f7fdc.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_f7fdc.dir\\ /FS -c "F:\\Університет ФІТ 2-17\\Семестер 5\\ТПП\\Spring_Lab\\build\\vcpkg_installed\\vcpkg\\blds\\zlib\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-k6nwwh\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\visual studio\\1\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_f7fdc.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "E:\\visual studio\\1\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_f7fdc.dir\\CheckIncludeFile.c.obj  /out:cmTC_f7fdc.exe /implib:cmTC_f7fdc.lib /pdb:cmTC_f7fdc.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/visual studio/1/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "E:/visual studio/1/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "CMakeLists.txt:78 (check_type_size)"
+    checks:
+      - "Check size of off64_t"
+    directories:
+      source: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-jvf571"
+      binary: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-jvf571"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/visual studio/1/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "E:/visual studio/1/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_OFF64_T"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/Університет ФІТ 2-17/Семестер 5/ТПП/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-jvf571'
+        
+        Run Build Command(s): C:/Users/vovav/AppData/Local/vcpkg/downloads/tools/ninja/1.13.1-windows/ninja.exe -v cmTC_d98ae
+        [1/2] "E:\\visual studio\\1\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo -D_LARGEFILE64_SOURCE=1  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /MDd /Z7 /Ob0 /Od /RTC1  -MDd /showIncludes /FoCMakeFiles\\cmTC_d98ae.dir\\OFF64_T.c.obj /FdCMakeFiles\\cmTC_d98ae.dir\\ /FS -c "F:\\Університет ФІТ 2-17\\Семестер 5\\ТПП\\Spring_Lab\\build\\vcpkg_installed\\vcpkg\\blds\\zlib\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-jvf571\\OFF64_T.c"
+        FAILED: [code=2] CMakeFiles/cmTC_d98ae.dir/OFF64_T.c.obj 
+        "E:\\visual studio\\1\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo -D_LARGEFILE64_SOURCE=1  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /MDd /Z7 /Ob0 /Od /RTC1  -MDd /showIncludes /FoCMakeFiles\\cmTC_d98ae.dir\\OFF64_T.c.obj /FdCMakeFiles\\cmTC_d98ae.dir\\ /FS -c "F:\\Університет ФІТ 2-17\\Семестер 5\\ТПП\\Spring_Lab\\build\\vcpkg_installed\\vcpkg\\blds\\zlib\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-jvf571\\OFF64_T.c"
+        F:\\Університет ФІТ 2-17\\Семестер 5\\ТПП\\Spring_Lab\\build\\vcpkg_installed\\vcpkg\\blds\\zlib\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-jvf571\\OFF64_T.c(29): error C2065: off64_t: необъявленный идентификатор
+        F:\\Університет ФІТ 2-17\\Семестер 5\\ТПП\\Spring_Lab\\build\\vcpkg_installed\\vcpkg\\blds\\zlib\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-jvf571\\OFF64_T.c(30): error C2065: off64_t: необъявленный идентификатор
+        F:\\Університет ФІТ 2-17\\Семестер 5\\ТПП\\Spring_Lab\\build\\vcpkg_installed\\vcpkg\\blds\\zlib\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-jvf571\\OFF64_T.c(31): error C2065: off64_t: необъявленный идентификатор
+        F:\\Університет ФІТ 2-17\\Семестер 5\\ТПП\\Spring_Lab\\build\\vcpkg_installed\\vcpkg\\blds\\zlib\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-jvf571\\OFF64_T.c(32): error C2065: off64_t: необъявленный идентификатор
+        F:\\Університет ФІТ 2-17\\Семестер 5\\ТПП\\Spring_Lab\\build\\vcpkg_installed\\vcpkg\\blds\\zlib\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-jvf571\\OFF64_T.c(33): error C2065: off64_t: необъявленный идентификатор
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/visual studio/1/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:84 (check_function_exists)"
+    checks:
+      - "Looking for fseeko"
+    directories:
+      source: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-mdj5li"
+      binary: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-mdj5li"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/visual studio/1/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "E:/visual studio/1/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_FSEEKO"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/Університет ФІТ 2-17/Семестер 5/ТПП/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-mdj5li'
+        
+        Run Build Command(s): C:/Users/vovav/AppData/Local/vcpkg/downloads/tools/ninja/1.13.1-windows/ninja.exe -v cmTC_f4036
+        [1/2] "E:\\visual studio\\1\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP  -DCHECK_FUNCTION_EXISTS=fseeko /MDd /Z7 /Ob0 /Od /RTC1  -MDd /showIncludes /FoCMakeFiles\\cmTC_f4036.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_f4036.dir\\ /FS -c "F:\\Університет ФІТ 2-17\\Семестер 5\\ТПП\\Spring_Lab\\build\\vcpkg_installed\\vcpkg\\blds\\zlib\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-mdj5li\\CheckFunctionExists.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\visual studio\\1\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_f4036.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "E:\\visual studio\\1\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_f4036.dir\\CheckFunctionExists.c.obj  /out:cmTC_f4036.exe /implib:cmTC_f4036.lib /pdb:cmTC_f4036.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: [code=4294967295] cmTC_f4036.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\visual studio\\1\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_f4036.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "E:\\visual studio\\1\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_f4036.dir\\CheckFunctionExists.c.obj  /out:cmTC_f4036.exe /implib:cmTC_f4036.lib /pdb:cmTC_f4036.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "E:\\visual studio\\1\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f4036.dir\\CheckFunctionExists.c.obj /out:cmTC_f4036.exe /implib:cmTC_f4036.lib /pdb:cmTC_f4036.pdb /version:0.0 /machine:x64 /nologo /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_f4036.dir/intermediate.manifest CMakeFiles\\cmTC_f4036.dir/manifest.res" failed (exit code 1120) with the following output:
+        CheckFunctionExists.c.obj : error LNK2019: ссылка на неразрешенный внешний символ fseeko в функции main.
+        cmTC_f4036.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: -1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/visual studio/1/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "CMakeLists.txt:89 (check_include_file)"
+    checks:
+      - "Looking for stdarg.h"
+    directories:
+      source: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-blq16q"
+      binary: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-blq16q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/visual studio/1/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "E:/visual studio/1/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_STDARG_H"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/Університет ФІТ 2-17/Семестер 5/ТПП/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-blq16q'
+        
+        Run Build Command(s): C:/Users/vovav/AppData/Local/vcpkg/downloads/tools/ninja/1.13.1-windows/ninja.exe -v cmTC_821c0
+        [1/2] "E:\\visual studio\\1\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /MDd /Z7 /Ob0 /Od /RTC1  -MDd /showIncludes /FoCMakeFiles\\cmTC_821c0.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_821c0.dir\\ /FS -c "F:\\Університет ФІТ 2-17\\Семестер 5\\ТПП\\Spring_Lab\\build\\vcpkg_installed\\vcpkg\\blds\\zlib\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-blq16q\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "E:\\visual studio\\1\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_821c0.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- "E:\\visual studio\\1\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_821c0.dir\\CheckIncludeFile.c.obj  /out:cmTC_821c0.exe /implib:cmTC_821c0.lib /pdb:cmTC_821c0.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/visual studio/1/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "CMakeLists.txt:94 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-51uv6y"
+      binary: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-51uv6y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/visual studio/1/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "E:/visual studio/1/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/Університет ФІТ 2-17/Семестер 5/ТПП/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-51uv6y'
+        
+        Run Build Command(s): C:/Users/vovav/AppData/Local/vcpkg/downloads/tools/ninja/1.13.1-windows/ninja.exe -v cmTC_d60fe
+        [1/2] "E:\\visual studio\\1\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /MDd /Z7 /Ob0 /Od /RTC1  -MDd /showIncludes /FoCMakeFiles\\cmTC_d60fe.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_d60fe.dir\\ /FS -c "F:\\Університет ФІТ 2-17\\Семестер 5\\ТПП\\Spring_Lab\\build\\vcpkg_installed\\vcpkg\\blds\\zlib\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-51uv6y\\CheckIncludeFile.c"
+        FAILED: [code=2] CMakeFiles/cmTC_d60fe.dir/CheckIncludeFile.c.obj 
+        "E:\\visual studio\\1\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /MDd /Z7 /Ob0 /Od /RTC1  -MDd /showIncludes /FoCMakeFiles\\cmTC_d60fe.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_d60fe.dir\\ /FS -c "F:\\Університет ФІТ 2-17\\Семестер 5\\ТПП\\Spring_Lab\\build\\vcpkg_installed\\vcpkg\\blds\\zlib\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-51uv6y\\CheckIncludeFile.c"
+        F:\\Університет ФІТ 2-17\\Семестер 5\\ТПП\\Spring_Lab\\build\\vcpkg_installed\\vcpkg\\blds\\zlib\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-51uv6y\\CheckIncludeFile.c(1): fatal error C1083: Не удается открыть файл включение: unistd.h: No such file or directory,
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/visual studio/1/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "E:/visual studio/1/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:105 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE___ATTR__VIS_HIDDEN"
+    directories:
+      source: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-u6gh4l"
+      binary: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-u6gh4l"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "E:/visual studio/1/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "E:/visual studio/1/VC/vcpkg"
+    buildResult:
+      variable: "HAVE___ATTR__VIS_HIDDEN"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/Університет ФІТ 2-17/Семестер 5/ТПП/Spring_Lab/build/vcpkg_installed/vcpkg/blds/zlib/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-u6gh4l'
+        
+        Run Build Command(s): C:/Users/vovav/AppData/Local/vcpkg/downloads/tools/ninja/1.13.1-windows/ninja.exe -v cmTC_4d193
+        [1/2] "E:\\visual studio\\1\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DHAVE___ATTR__VIS_HIDDEN  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP  -WX /MDd /Z7 /Ob0 /Od /RTC1  -MDd /showIncludes /FoCMakeFiles\\cmTC_4d193.dir\\src.c.obj /FdCMakeFiles\\cmTC_4d193.dir\\ /FS -c "F:\\Університет ФІТ 2-17\\Семестер 5\\ТПП\\Spring_Lab\\build\\vcpkg_installed\\vcpkg\\blds\\zlib\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-u6gh4l\\src.c"
+        FAILED: [code=2] CMakeFiles/cmTC_4d193.dir/src.c.obj 
+        "E:\\visual studio\\1\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DHAVE___ATTR__VIS_HIDDEN  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP  -WX /MDd /Z7 /Ob0 /Od /RTC1  -MDd /showIncludes /FoCMakeFiles\\cmTC_4d193.dir\\src.c.obj /FdCMakeFiles\\cmTC_4d193.dir\\ /FS -c "F:\\Університет ФІТ 2-17\\Семестер 5\\ТПП\\Spring_Lab\\build\\vcpkg_installed\\vcpkg\\blds\\zlib\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-u6gh4l\\src.c"
+        F:\\Університет ФІТ 2-17\\Семестер 5\\ТПП\\Spring_Lab\\build\\vcpkg_installed\\vcpkg\\blds\\zlib\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-u6gh4l\\src.c(3): error C2061: синтаксическая ошибка: идентификатор "__attribute__"
+        F:\\Університет ФІТ 2-17\\Семестер 5\\ТПП\\Spring_Lab\\build\\vcpkg_installed\\vcpkg\\blds\\zlib\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-u6gh4l\\src.c(3): error C2059: синтаксическая ошибка: ;
+        F:\\Університет ФІТ 2-17\\Семестер 5\\ТПП\\Spring_Lab\\build\\vcpkg_installed\\vcpkg\\blds\\zlib\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-u6gh4l\\src.c(3): error C2143: синтаксическая ошибка: отсутствие ")" перед "строка"
+        F:\\Університет ФІТ 2-17\\Семестер 5\\ТПП\\Spring_Lab\\build\\vcpkg_installed\\vcpkg\\blds\\zlib\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-u6gh4l\\src.c(3): error C2059: синтаксическая ошибка: )
+        F:\\Університет ФІТ 2-17\\Семестер 5\\ТПП\\Spring_Lab\\build\\vcpkg_installed\\vcpkg\\blds\\zlib\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-u6gh4l\\src.c(3): error C2059: синтаксическая ошибка: )
+        F:\\Університет ФІТ 2-17\\Семестер 5\\ТПП\\Spring_Lab\\build\\vcpkg_installed\\vcpkg\\blds\\zlib\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-u6gh4l\\src.c(3): error C2059: синтаксическая ошибка: )
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 2
+...

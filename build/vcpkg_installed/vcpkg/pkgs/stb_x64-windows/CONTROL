@@ -1,0 +1,7 @@
+Package: stb
+Version: 2024-07-29
+Port-Version: 1
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 46d213f1709063a467828b1ecd2353e118b6fd7faa08b348a96f1cfe8b7b1717
+Description: public domain header-only libraries

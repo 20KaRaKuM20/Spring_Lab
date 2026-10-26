@@ -1,0 +1,2 @@
+F:/Університет ФІТ 2-17/Семестер 5/ТПП/Spring_Lab/build/vcpkg_installed/vcpkg/blds/detect_compiler/x64-windows-rel/CMakeFiles/edit_cache.dir
+F:/Університет ФІТ 2-17/Семестер 5/ТПП/Spring_Lab/build/vcpkg_installed/vcpkg/blds/detect_compiler/x64-windows-rel/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,5 @@
+F:/Університет ФІТ 2-17/Семестер 5/ТПП/Spring_Lab/build/vcpkg_installed/vcpkg/pkgs/bzip2_x64-windows/lib/bz2.lib
+F:/Університет ФІТ 2-17/Семестер 5/ТПП/Spring_Lab/build/vcpkg_installed/vcpkg/pkgs/bzip2_x64-windows/bin/bz2.dll
+F:/Університет ФІТ 2-17/Семестер 5/ТПП/Spring_Lab/build/vcpkg_installed/vcpkg/pkgs/bzip2_x64-windows/tools/bzip2/bzip2.exe
+F:/Університет ФІТ 2-17/Семестер 5/ТПП/Spring_Lab/build/vcpkg_installed/vcpkg/pkgs/bzip2_x64-windows/tools/bzip2/bzip2recover.exe
+F:/Університет ФІТ 2-17/Семестер 5/ТПП/Spring_Lab/build/vcpkg_installed/vcpkg/pkgs/bzip2_x64-windows/include/bzlib.h

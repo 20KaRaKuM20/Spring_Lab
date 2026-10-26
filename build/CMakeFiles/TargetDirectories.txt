@@ -1,0 +1,3 @@
+F:/Університет ФІТ 2-17/Семестер 5/ТПП/Spring_Lab/build/CMakeFiles/Spring_Lab.dir
+F:/Університет ФІТ 2-17/Семестер 5/ТПП/Spring_Lab/build/CMakeFiles/edit_cache.dir
+F:/Університет ФІТ 2-17/Семестер 5/ТПП/Spring_Lab/build/CMakeFiles/rebuild_cache.dir

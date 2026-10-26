@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Spring_Lab",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Spring_Lab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Spring_Lab-Debug-195ba0699c77a654dac8.json",
+					"name" : "Spring_Lab",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab/build",
+		"source" : "F:/\u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0424\u0406\u0422 2-17/\u0421\u0435\u043c\u0435\u0441\u0442\u0435\u0440 5/\u0422\u041f\u041f/Spring_Lab"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
